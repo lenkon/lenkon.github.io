@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio: desktop version</b></h3>
+  <h3><b>Portfolio: application deploy</b></h3>
 
 </div>
 
@@ -28,11 +28,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio: desktop version] <a name="about-project"></a>
+# 📖 [Portfolio: application deploy] <a name="about-project"></a>
 
-> Use media queries in the fourth project of the portfolio website to make sure that the website displays correctly on desktop screens.
+> Use GitHub Pages to deploy the online version of the Portfolio web pages.
 
-**[Portfolio: desktop version]** is...
+**[Portfolio: application deploy]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,12 +58,13 @@
 - **[Work portfolio section - Projects description]**
 - **[Contact Form]**
 - **[Desktop Version]**
+- **[Deploy using GitHub Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/lenkon/Portfolio)
+- [Live Demo Link](https://lenkon.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +102,11 @@ You can deploy this project using:
 
 👤 **lenkon**
 
-- GitHub: [@githubhandle](https://github.com/lenkon)
+- GitHub: [@lenkon](https://github.com/lenkon)
+
+👤 **Divinity-dev**
+
+- GitHub: [@Divinity-dev](https://github.com/Divinity-dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
