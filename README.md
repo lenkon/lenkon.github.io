@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>To Do list: interactive list</b></h3>
+  <h3><b>Portfolio: preserve data in the browser</b></h3>
 
 </div>
 
@@ -26,11 +26,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [To Do list: interactive list] <a name="about-project"></a>
+# 📖 [Portfolio: preserve data in the browser] <a name="about-project"></a>
 
-> In this project, some functionality to the application will be added to make it interactive. The user will also be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list will be stored in local storage.
+> For this final milestone of the portfolio website, the form data will be saved in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
-**[To Do list: interactive list]** is...
+**[Portfolio: preserve data in the browser]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,7 +41,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://github.com/lenkon/to-do-list/blob/main/.github/workflows/linters.yml">linter</a></li>
+    <li><a href="https://github.com/lenkon/Portfolio/blob/main/.github/workflows/linters.yml">linter</a></li>
     <li><a href="https://www.w3schools.com/html/">html</a></li>
     <li><a href="https://www.w3schools.com/w3css/defaulT.asp">css</a></li>
     <li><a href="https://www.w3schools.com/js/default.asp">javascript</a></li>
@@ -52,20 +52,21 @@
 
 > Key features of the application.
 
-- **[Use webpack]**
-- **[To do list]**
-- **[Use webpack dev server]**
-- **[Adding a new task]**
-- **[Deleting a task]**
-- **[Editing task]**
-- **[Task completion status]**
-- **[Clear all completed]**
+- **[Navigation bar]**
+- **[Header section - Introduction]**
+- **[Work portfolio section - Projects description]**
+- **[Contact Form]**
+- **[Desktop Version]**
+- **[Mobile Menu]**
+- **[Work details popup window]**
+- **[Contact form validation]**
+- **[Preserve data in the browser]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Source Link](https://github.com/lenkon/to-do-list)
+- [Live Demo Link](https://github.com/lenkon/Portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,9 +85,9 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ``` 
-  $ git clone https://github.com/lenkon/to-do-list
+  $ git clone https://github.com/lenkon/Portfolio.git
 
-  $ cd to-do-list
+  $ cd Portfolio
 ```
 ### Install
 
@@ -105,7 +106,7 @@ Open the index.html file in your Web Browser.
 
 👤 **lenkon**
 
-- GitHub: [@lenkon](https://github.com/lenkon)
+- GitHub: [@githubhandle](https://github.com/lenkon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
