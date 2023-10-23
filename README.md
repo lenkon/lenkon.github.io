@@ -85,9 +85,9 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ``` 
-  $ git clone https://github.com/lenkon/my-portfolio
+  $ git clone https://github.com/lenkon/lenkon.github.io
 
-  $ cd my-portfolio
+  $ cd lenkon.github.io
 ```
 ### Install
 
@@ -107,6 +107,7 @@ Open the index.html file in your Web Browser.
 👤 **K Inoulen Shanongba**
 
 - GitHub: [K Inoulen Shanongba](https://github.com/lenkon)
+- LinkedIn: [Inoulen Konjengbam](https://www.linkedin.com/in/inoulen-konjengbam/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
