@@ -129,8 +129,6 @@ a {
   width: 100%;
 }
 
-
-
 /* Desktop - header */
 .header-container {
   background: #fff url("../images/large/Header\ bg@2x.png");
@@ -452,13 +450,6 @@ ul.card-tools-list.popup-tools-list li {
   flex-direction: column;
 }
 
-. {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 14px;
-}
-
 .popup-details-container {
   width: 100%;
 }
@@ -704,6 +695,8 @@ section.about .modals li .technologies li p {
 .form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
   margin: 30px;
 }
 
@@ -737,6 +730,7 @@ section.about .modals li .technologies li p {
   fill: solid;
   line-height: 24px;
   font-size: 15px;
+  min-width: 447px;
 }
 
 .email-error-msg {
@@ -768,7 +762,9 @@ section.about .modals li .technologies li p {
 }
 
 .container-base {
-  padding: 0 115px 5px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3px;
 }
 
 @media (max-width: 370px) {
