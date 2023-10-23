@@ -256,6 +256,44 @@ cardButton.forEach((button) => {
   });
 });
 
+// Skills
+const arrowRightOnes = document.querySelectorAll('.arrow1');
+const arrowDownOnes = document.querySelectorAll('.arrow2');
+const technologies = document.querySelectorAll('.technologies');
+technologies.forEach((tech, index) => {
+  if (index === 0) {
+    tech.style.display = 'flex';
+    arrowDownOnes[index].classList.remove('hidden');
+    arrowRightOnes[index].classList.add('hidden');
+  } else {
+    tech.style.display = 'none';
+  }
+});
+
+arrowRightOnes.forEach((arrowRightOne, index) => {
+  arrowRightOne.addEventListener('click', () => {
+    arrowDownOnes[index].classList.remove('hidden');
+    arrowRightOnes[index].classList.add('hidden');
+    technologies[index].style.display = 'flex';
+
+    arrowRightOnes.forEach((arrow, i) => {
+      if (i !== index) {
+        technologies[i].style.display = 'none';
+        arrowDownOnes[i].classList.add('hidden');
+        arrowRightOnes[i].classList.remove('hidden');
+      }
+    });
+  });
+});
+
+arrowDownOnes.forEach((arrowDownOne, index) => {
+  arrowDownOne.addEventListener('click', () => {
+    technologies[index].style.display = 'none';
+    arrowRightOnes[index].classList.remove('hidden');
+    arrowDownOnes[index].classList.add('hidden');
+  });
+});
+
 // Email validation
 const isUpperCaseEmail = (email) => {
   if (/[A-Z]/.test(email)) {

@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="My Portfolio">
     <meta name="author" content="Lenkon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" 
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap">
@@ -138,37 +145,80 @@
           </div>
         </div>
 
-        <!-- Skills -->
-        <ul class="skill-container skills-sizing">
-          <li class="skill-list-header">
-            <h4 class="skill-header">Languages</h4>
-            <img src="./images/arrow-down.png" alt="Languages">
+        <ul class="modals skill-container skills-sizing language-text">
+          <li>
+            <div class="lang selected skill-list-header">
+              <span class="skill-header">Languages</span>
+              <i class="fa-sharp fa-solid fa-angle-right arrow1"></i>
+              <i class="fa-sharp fa-solid fa-angle-right fa-rotate-90 arrow2 hidden"></i>
+            </div>
+            <ul class="technologies ">
+              <li>
+                <img class="img" src="images/JS.png" alt="js icon" />
+                <p>JS</p>
+              </li>
+              <li>
+                <img class="img" src="images/ruby.png" alt="ruby icon" />
+                <p>Ruby</p>
+              </li>
+              <li>
+                <img class="img" src="images/HTML.png" alt="html icon" />
+                <p>HTML</p>
+              </li>
+              <li>
+                <img class="img" src="images/CSS.png" alt="css icon" />
+                <p>CSS</p>
+              </li>
+            </ul>
           </li>
-          <ul class="language-list">
-            <!-- Add img tag within anchor tag for convention -->
-            <li class="language">
-              <img src="./images/Ellipse-JS.png" alt="JavaScript logo">
-              <h6 class="language-text">JavaScript</h6>
-            </li>
-            <li class="language">
-              <img src="./images/Ellipse-HTML.png" alt="HTML logo">
-              <h6 class="language-text">HTML</h6>
-            </li>
-            <li class="language">
-              <img src="./images/Ellipse-CSS.png" alt="CSS logo">
-              <h6 class="language-text">CSS</h6>
-            </li>
-          </ul>          
-          <li class="skill-list-header">
-            <h4 class="skill-header">Frameworks</h4>
-            <img src="./images/arrow-button-icon.png" alt="Frameworks button image">
+  
+          <li>
+            <div class="lang skill-list-header">
+              <span>Frameworks</span>
+              <i class="fa-sharp fa-solid fa-angle-right arrow1 check"></i>
+              <i class="fa-sharp fa-solid fa-angle-right fa-rotate-90 arrow2 hidden"></i>
+            </div>
+            <ul class="technologies">
+              <li>
+                <img class="img" src="images/rails.png" alt="rails icon" />
+                <p>Rails</p>
+              </li>  
+              <li>
+                <img class="img" src="images/node-js.png" alt="node js icon" />
+                <p>Node JS</p>
+              </li>
+              <li>
+                <img class="img" src="images/react.png" alt="react icon" />
+                <p>React</p>
+              </li>
+            </ul>
           </li>
-          <div class="skill-separator"></div>
-          <li class="skill-list-header">
-            <h4 class="skill-header">Skills</h4>
-            <img src="./images/arrow-button-icon.png" alt="Skills button image">
+  
+          <li>
+            <div class="lang skill-list-header">
+              <span>Skills</span>
+              <i class="fa-sharp fa-solid fa-angle-right arrow1 check"></i>
+              <i class="fa-sharp fa-solid fa-angle-right fa-rotate-90 arrow2 hidden"></i>
+            </div>
+            <ul class="technologies">
+              <li>
+                <img class="img" src="images/postgresql.png" alt="postgresql icon" />
+                <p>PostgreSQL</p>
+              </li>
+              <li>
+                <img class="img" src="images/testing.svg" alt="testing icon" />
+                <p>Testing</p>
+              </li>
+              <li>
+                <img class="img" src="images/dsa.svg" alt="dsa icon" />
+                <p>DS & A</p>
+              </li>
+              <li>
+                <img class="img" src="images/github.png" alt="github icon" />
+                <p>GitHub</p>
+              </li>
+            </ul>
           </li>
-          <div class="skill-separator"></div>
         </ul>
       </section>
 
