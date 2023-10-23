@@ -153,6 +153,25 @@ body {
   padding-left: 24px;
 }
 
+.about-me,
+.header-main-text {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slide-in 1s ease-out forwards;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-86px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .connect {
   font-family: Poppins, sans-serif;
   font-style: normal;
