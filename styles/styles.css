@@ -587,6 +587,11 @@ ul.technologies li p {
   justify-content: center;
 }
 
+.modals li .technologies {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 section.about .modals li .technologies li {
   flex-direction: column;
   align-items: center;
@@ -621,7 +626,7 @@ section.about .modals li .technologies li p {
   display: flex;
   flex-direction: column;
   padding-left: 36px;
-  padding-top: 114px;
+  padding-top: 14px;
 }
 
 .skill-list-header {
@@ -697,7 +702,7 @@ section.about .modals li .technologies li p {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-around;
-  margin: 30px;
+  margin: 16px 45px;
 }
 
 .label-visibility {
@@ -711,12 +716,14 @@ section.about .modals li .technologies li p {
   justify-content: center;
   border: none;
   border-radius: 8px;
-  max-width: 447px;
+  min-width: 270px;
   margin: 10px 0;
   font-size: 17px;
   padding: 10px;
   color: #172b4d;
   line-height: 26px;
+  max-width: 100%;
+  width: 100%;
 }
 
 .form-msg {
@@ -730,7 +737,6 @@ section.about .modals li .technologies li p {
   fill: solid;
   line-height: 24px;
   font-size: 15px;
-  min-width: 447px;
 }
 
 .email-error-msg {
@@ -1030,6 +1036,7 @@ section.about .modals li .technologies li p {
     padding-right: 0;
     border-top-right-radius: 120px;
     margin: 0;
+    padding-top: 114px;
   }
 
   .skills-sizing {
@@ -1125,7 +1132,13 @@ section.about .modals li .technologies li p {
     border-radius: 0;
     padding: 10px;
     min-width: 447px;
+
+    /* min-width: 320px; */
     margin: 0;
+  }
+
+  .contact-input {
+    min-width: 447px;
   }
 
   .container-base {
