@@ -120,15 +120,16 @@ a {
   width: 100%;
 }
 
+
+
+/* Desktop - header */
 .header-container {
-  display: flex;
-  flex-direction: column;
-  min-height: calc(100vh - 156px);
-  background: url("../images/header-shapes\ mobile@2x.png");
-  background-color: #fff;
+  background: #fff url("../images/large/Header\ bg@2x.png");
   background-repeat: no-repeat;
-  padding-top: 100px;
-  border-bottom-left-radius: 70px;
+  background-size: contain;
+  background-position: center center;
+  border-bottom-left-radius: 120px;
+  padding: 72px 0 114px;
 }
 
 .header-main-text,
@@ -226,11 +227,12 @@ a {
 }
 
 .card-title-text {
+  display: flex;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 26px;
+  line-height: 32px;
   color: #172b4d;
   margin: 12px 0;
 }
@@ -283,12 +285,9 @@ a {
   margin: 12px 0;
 }
 
-.card-tools-list ul {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  gap: 10px;
-  list-style: none;
+.popup-tools-list {
+  display: inline-block;
+  flex: wrap;
 }
 
 .card-tools-list li {
@@ -302,6 +301,24 @@ a {
 
 .card-tools-list li:hover {
   background-color: #bdbbbb;
+}
+
+.about .modals li {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ul.card-tools-list.popup-tools-list li {
+  margin-right: 10px;
+}
+
+.card-tools-list,
+.card-tools-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 10px;
+  list-style: none;
 }
 
 .card-tools {
@@ -522,8 +539,8 @@ a {
 .modals li ul.technologies li img.img {
   display: flex;
   justify-content: center;
-  width: 70px;
-  height: 70px;
+  width: 56px;
+  height: 56px;
   padding: 0 10px;
 }
 
@@ -549,11 +566,6 @@ a {
   line-height: 24px;
   display: flex;
   align-items: center;
-}
-
-.about .modals li {
-  padding: 10px;
-  margin-bottom: 10px;
 }
 
 .about .modals ul {
@@ -585,16 +597,6 @@ section.about .modals li .technologies li p {
   text-align: center;
 }
 
-section.about .modals li .technologies li img {
-  width: 50px;
-  height: 50px;
-}
-
-.language-list {
-  padding: 12px 36px 12px 0;
-  padding-inline-start: 0;
-}
-
 .language {
   background: #f7f7f9;
   border-radius: 8px;
@@ -619,6 +621,7 @@ section.about .modals li .technologies li img {
   display: flex;
   flex-direction: column;
   padding-left: 36px;
+  padding-top: 114px;
 }
 
 .skill-list-header {
@@ -637,12 +640,14 @@ section.about .modals li .technologies li img {
   font-size: 20px;
   line-height: 24px;
   color: #000;
+  padding-bottom: 12px;
 }
 
 .skill-separator {
   height: 1px;
   background: #dfe1e6;
   margin-right: 24px;
+  margin-top: 18px;
 }
 
 .contact-section {
@@ -757,6 +762,19 @@ section.about .modals li .technologies li img {
   padding: 0 115px 5px;
 }
 
+@media (max-width: 370px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 156px);
+    background: url("../images/header-shapes\ mobile@2x.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    border-bottom-left-radius: 70px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -823,15 +841,6 @@ section.about .modals li .technologies li img {
   }
 
   /* Desktop - header */
-  .header-container {
-    background: #fff url("../images/large/Header\ bg@2x.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    border-bottom-left-radius: 120px;
-    padding: 72px 0 114px;
-  }
-
   .header-main-text {
     font-size: 20px;
     line-height: 28px;
@@ -847,7 +856,7 @@ section.about .modals li .technologies li img {
   }
 
   .about-me {
-    font-size: 48px;
+    font-size: calc(2.3rem + 1vw);
     line-height: 60px;
     letter-spacing: 0.37px;
     padding: 0;
@@ -943,9 +952,9 @@ section.about .modals li .technologies li img {
   }
 
   .card-title-text {
-    font-size: 40px;
     line-height: 52px;
     margin: 0;
+    font-size: calc(1.5rem + 1vw);
   }
 
   .card-canopy {
@@ -1026,11 +1035,6 @@ section.about .modals li .technologies li img {
     padding: 14px 24px;
   }
 
-  .skill-list-header:first-child {
-    margin-top: 110px;
-  }
-
-  /* --------------------- */
   .about .modals {
     flex-shrink: 2;
     flex-basis: 60%;
