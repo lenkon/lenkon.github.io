@@ -35,7 +35,7 @@ const projectDetails = [
   {
     title: 'Doctor Appointment',
     description:
-      'This is a two-app simple doctor appointment web application. This app allows keeping a record of doctor appointments by creating or deleting doctors and appointments. Built with ReactJS, Redux, Ruby on Rails, and PostgreSQL',
+      'This is a two-app simple doctor appointment web application. This app allows keeping a record of doctor appointments by creating or deleting doctors and appointments. Built with ReactJS, Redux, Ruby on Rails, and PostgreSQL.',
     image: './images/large/doctor-appointment.png',
     alt: 'doctor appointment image',
     companyRoles: ['Microverse', 'Student', '2023'],
@@ -48,7 +48,7 @@ const projectDetails = [
   {
     title: 'Budget App',
     description:
-      'Budget App is a Ruby on Rails mobile web application where users can manage their budget: users have a list of transactions associated with a category, so that users can see how much money the users spent on what.',
+      'Budget App is a Ruby on Rails mobile web application where users can manage their budget: users have a list of transactions associated with a category so that users can see how much money the users spent on what.',
     image: './images/large/budget-app.png',
     alt: 'budget app image',
     companyRoles: ['Microverse', 'Student', '2023'],
@@ -62,7 +62,7 @@ const projectDetails = [
   {
     title: 'Metrics App - Community TV Data',
     description:
-      'This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that is created making use of React and Redux.',
+      'This React capstone project is about building a mobile web application to check a list of metrics (numeric values) and is created using React and Redux.',
     image: './images/large/metrics-app.png',
     alt: 'metrics app image',
     companyRoles: ['Microverse', 'Student', '2023'],
@@ -75,7 +75,7 @@ const projectDetails = [
   {
     title: 'Capstone 1 - Concert Page',
     description:
-      'This is a capstone project for the first module where I create a concert festival page using HTML, CSS and JavaScript.',
+      'This is a capstone project for the first module where I create a concert festival page using HTML, CSS, and JavaScript.',
     image: './images/large/concert.png',
     alt: 'concert festival image',
     companyRoles: ['Microverse', 'Student', '2022'],
@@ -90,7 +90,7 @@ const projectDetails = [
   {
     title: 'Awesome Books - ES6',
     description:
-      'This is a simple online library application, which is an upgraded version of the Awesome Books app, that has features to keep a record of books in the library. It can add, remove and show books from the library. Built with JavaScript, HTML, CSS, and ES6.',
+      'This is a simple online library application that has features to keep a record of books in the library. It can add, remove, and show books from the library. It is built with JavaScript, HTML, CSS, and ES6.',
     image: './images/large/awesome-books.png',
     alt: 'awesome books project image',
     companyRoles: ['Microverse', 'Student', '2022'],
