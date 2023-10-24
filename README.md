@@ -1,8 +1,9 @@
+# Portfolio
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <h3><b>To Do list: interactive list</b></h3>
+  <h3><b>This is a portfolio website that shows my professional experience and the projects that I have created. This project is built using JavaScript, CSS and HTML.</b></h3>
 
 </div>
 
@@ -26,25 +27,29 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [To Do list: interactive list] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-> In this project, some functionality to the application will be added to make it interactive. The user will also be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list will be stored in local storage.
+> **Portfolio** is a portfolio website that shows my professional experience and the projects that I have created. This project is built using JavaScript, CSS and HTML.
 
-**[To Do list: interactive list]** is...
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Link](https://lenkon.github.io/)
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
->  Built with html, css and javascript with linter configuration setup.
+>  Built with HTML, CSS and JavaScript with linter configuration setup.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://github.com/lenkon/to-do-list/blob/main/.github/workflows/linters.yml">linter</a></li>
-    <li><a href="https://www.w3schools.com/html/">html</a></li>
-    <li><a href="https://www.w3schools.com/w3css/defaulT.asp">css</a></li>
-    <li><a href="https://www.w3schools.com/js/default.asp">javascript</a></li>
+    <li><a href="https://github.com/lenkon/my-portfolio/blob/main/.github/workflows/linters.yml">linter</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/w3css/defaulT.asp">CSS</a></li>
+    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
   </ul>
 </details>
 
@@ -52,20 +57,16 @@
 
 > Key features of the application.
 
-- **[Use webpack]**
-- **[To do list]**
-- **[Use webpack dev server]**
-- **[Adding a new task]**
-- **[Deleting a task]**
-- **[Editing task]**
-- **[Task completion status]**
-- **[Clear all completed]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Source Link](https://github.com/lenkon/to-do-list)
+- **[Navigation bar]**
+- **[Header section - Introduction]**
+- **[Work portfolio section - Projects description]**
+- **[Contact Form]**
+- **[Desktop Version]**
+- **[Mobile Menu]**
+- **[Work details popup window]**
+- **[Contact form validation]**
+- **[Preserve data in the browser]**
+- **[Add more project cards]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,9 +85,9 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ``` 
-  $ git clone https://github.com/lenkon/to-do-list
+  $ git clone https://github.com/lenkon/lenkon.github.io
 
-  $ cd to-do-list
+  $ cd lenkon.github.io
 ```
 ### Install
 
@@ -103,9 +104,10 @@ Open the index.html file in your Web Browser.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **lenkon**
+👤 **K Inoulen Shanongba**
 
-- GitHub: [@lenkon](https://github.com/lenkon)
+- GitHub: [K Inoulen Shanongba](https://github.com/lenkon)
+- LinkedIn: [Inoulen Konjengbam](https://www.linkedin.com/in/inoulen-konjengbam/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
